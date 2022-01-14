@@ -11,14 +11,14 @@ namespace Moodanalyzermstest
         
         public void Given_sad_mood_return_sad_mood()
         {
-            ////Arrange
-            //string expected = "sad";
-            //string message = " im sad mood";
-            //UC1 moodanalyze = new UC1(message);
-            ////Act
-            //string mood = moodanalyze.Analyzemood();
-            //// assert
-            //Assert.AreEqual(expected, mood);
+            //Arrange
+            string expected = "sad";
+            string message = " im sad mood";
+            UC1 moodanalyze = new UC1(message);
+            //Act
+            string mood = moodanalyze.Analyzemood();
+            // assert
+            Assert.AreEqual(expected, mood);
         }
         // TEST CASE2 Given “I am in Any Mood” message Should Return HAPPY
 
