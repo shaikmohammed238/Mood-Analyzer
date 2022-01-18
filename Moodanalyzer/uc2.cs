@@ -4,7 +4,7 @@ using System.Text;
 
 namespace day20to22Moodanalyzer
 {                                            // Handle Exception if User Provides Invalid Mood
-    public class uc2
+     public class uc2
     {
         public string message;
         public uc2(string message)
@@ -20,7 +20,7 @@ namespace day20to22Moodanalyzer
                 else
                     return "sad";
             }
-            catch(NullReferenceException message)
+            catch(NullReferenceException )
             {
                 return "happy";
             }
